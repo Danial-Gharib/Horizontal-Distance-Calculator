@@ -1,0 +1,443 @@
+# Loading project LateralDistanceCalculator
+# Compile of main.v was successful.
+# Compile of datapath.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of register.v was successful.
+# Compile of adder.v was successful.
+# Compile of mult.v was successful.
+# Compile of ROM.v was successful.
+# Compile of flipflop.v was successful.
+# Compile of MUX2_1.v was successful.
+# Compile of MUX4_2.v was successful.
+# Compile of CMP.v was successful.
+# Compile of main_tb.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of register_tb.v was successful.
+# Compile of mu2_1_tb.v was successful.
+# Compile of mux4_2_tb.v was successful.
+# Compile of CMP_tb.v was successful.
+# Compile of flipflop_tb.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of mult_tb.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.main_tb
+# vsim work.main_tb 
+# Start time: 19:38:22 on Jun 28,2023
+# Loading work.main_tb
+# Loading work.main
+# Loading work.datapath
+# Loading work.register
+# Loading work.ROM
+# Loading work.CMP
+# Loading work.flipflop
+# Loading work.adder
+# Loading work.mult
+# Loading work.MUX2_1
+# Loading work.MUX4_2
+# Loading work.control_unit
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R1 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 22
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(22): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R2'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R2 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 23
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(23): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R4'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R4 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 24
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(24): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R5'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R5 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 25
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(25): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R6'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R6 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 26
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(26): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R7'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R7 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 27
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(27): [TFMPC] - Missing connection for port 'inc'.
+add wave -position insertpoint  \
+sim:/main_tb/clk \
+sim:/main_tb/start \
+sim:/main_tb/reset \
+sim:/main_tb/v \
+sim:/main_tb/x \
+sim:/main_tb/done \
+sim:/main_tb/res \
+sim:/main_tb/expected \
+sim:/main_tb/err
+run
+# x = 0 and v = 10
+# result is : 0101000000000000
+# error is : 1100100000000000
+# test 1 ended------------------------------
+# x = pi/6 and v = 10
+# result is : 0100010100111000
+# error is : 0000000000010000
+# test 2 ended------------------------------
+# x = pi/4 and v = 10
+# result is : 0011100010000110
+# error is : 0000000000001011
+# test 3 ended------------------------------
+# x = pi/3 and v = 10
+# result is : 0010011111101100
+# error is : 0000000000010100
+# test 4 ended------------------------------
+# x = pi/2 and v = 10
+# result is : 1111111110111010
+# error is : 0000000001000110
+# test 5 ended------------------------------
+# x = 2pi/3 and v = 10
+# result is : 1101011101001100
+# error is : 0000000010110100
+# test 6 ended------------------------------
+# x = 3pi/4 and v = 10
+# result is : 1100011010110010
+# error is : 0000000010111101
+# test 7 ended------------------------------
+# x = 5pi/6 and v = 10
+# result is : 1011100110111010
+# error is : 0000000011111110
+# test 8 ended------------------------------
+# x = pi and v = 3
+# result is : 1110011101100111
+# error is : 0000000010011001
+# test 9 ended------------------------------
+quit -sim
+# End time: 19:41:32 on Jun 28,2023, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 14
+# Compile of main.v was successful.
+# Compile of datapath.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of register.v was successful.
+# Compile of adder.v was successful.
+# Compile of mult.v was successful.
+# Compile of ROM.v was successful.
+# Compile of flipflop.v was successful.
+# Compile of MUX2_1.v was successful.
+# Compile of MUX4_2.v was successful.
+# Compile of CMP.v was successful.
+# Compile of main_tb.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of register_tb.v was successful.
+# Compile of mu2_1_tb.v was successful.
+# Compile of mux4_2_tb.v was successful.
+# Compile of CMP_tb.v was successful.
+# Compile of flipflop_tb.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of mult_tb.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.main_tb
+# vsim work.main_tb 
+# Start time: 19:41:45 on Jun 28,2023
+# Loading work.main_tb
+# Loading work.main
+# Loading work.datapath
+# Loading work.register
+# Loading work.ROM
+# Loading work.CMP
+# Loading work.flipflop
+# Loading work.adder
+# Loading work.mult
+# Loading work.MUX2_1
+# Loading work.MUX4_2
+# Loading work.control_unit
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R1 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 22
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(22): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R2'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R2 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 23
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(23): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R4'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R4 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 24
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(24): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R5'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R5 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 25
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(25): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R6'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R6 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 26
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(26): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R7'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R7 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 27
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(27): [TFMPC] - Missing connection for port 'inc'.
+add wave -position insertpoint  \
+sim:/main_tb/clk \
+sim:/main_tb/start \
+sim:/main_tb/reset \
+sim:/main_tb/v \
+sim:/main_tb/x \
+sim:/main_tb/done \
+sim:/main_tb/res \
+sim:/main_tb/expected \
+sim:/main_tb/err
+run
+# x = 0 and v = 10
+# result is : 0101000000000000
+# error is : 0000000000000000
+# test 1 ended------------------------------
+# x = pi/6 and v = 10
+# result is : 0100010100111000
+# error is : 0000000000010000
+# test 2 ended------------------------------
+# x = pi/4 and v = 10
+# result is : 0011100010000110
+# error is : 0000000000001011
+# test 3 ended------------------------------
+# x = pi/3 and v = 10
+# result is : 0010011111101100
+# error is : 0000000000010100
+# test 4 ended------------------------------
+# x = pi/2 and v = 10
+# result is : 1111111110111010
+# error is : 0000000001000110
+# test 5 ended------------------------------
+# x = 2pi/3 and v = 10
+# result is : 1101011101001100
+# error is : 0000000010110100
+# test 6 ended------------------------------
+# x = 3pi/4 and v = 10
+# result is : 1100011010110010
+# error is : 0000000010111101
+# test 7 ended------------------------------
+# x = 5pi/6 and v = 10
+# result is : 1011100110111010
+# error is : 0000000011111110
+# test 8 ended------------------------------
+# x = pi and v = 3
+# result is : 1110011101100111
+# error is : 0000000010011001
+# test 9 ended------------------------------
+add wave -position insertpoint  \
+sim:/main_tb/MAIN/dp/v \
+sim:/main_tb/MAIN/dp/x \
+sim:/main_tb/MAIN/dp/clk \
+sim:/main_tb/MAIN/dp/reset \
+sim:/main_tb/MAIN/dp/ld_R1 \
+sim:/main_tb/MAIN/dp/ld_R2 \
+sim:/main_tb/MAIN/dp/ld_R4 \
+sim:/main_tb/MAIN/dp/ld_R5 \
+sim:/main_tb/MAIN/dp/ld_R6 \
+sim:/main_tb/MAIN/dp/ld_R7 \
+sim:/main_tb/MAIN/dp/clr_R1 \
+sim:/main_tb/MAIN/dp/clr_R2 \
+sim:/main_tb/MAIN/dp/clr_R4 \
+sim:/main_tb/MAIN/dp/clr_R5 \
+sim:/main_tb/MAIN/dp/clr_R6 \
+sim:/main_tb/MAIN/dp/clr_R7 \
+sim:/main_tb/MAIN/dp/inc_R4 \
+sim:/main_tb/MAIN/dp/set_done \
+sim:/main_tb/MAIN/dp/clear_done \
+sim:/main_tb/MAIN/dp/S0 \
+sim:/main_tb/MAIN/dp/S1 \
+sim:/main_tb/MAIN/dp/S5 \
+sim:/main_tb/MAIN/dp/is_R4_greater_than_eight \
+sim:/main_tb/MAIN/dp/done \
+sim:/main_tb/MAIN/dp/final_result \
+sim:/main_tb/MAIN/dp/R1_out \
+sim:/main_tb/MAIN/dp/R2_out \
+sim:/main_tb/MAIN/dp/R4_out \
+sim:/main_tb/MAIN/dp/R5_out \
+sim:/main_tb/MAIN/dp/R6_out \
+sim:/main_tb/MAIN/dp/mux_0_out \
+sim:/main_tb/MAIN/dp/mux_1_out \
+sim:/main_tb/MAIN/dp/mux_2_out \
+sim:/main_tb/MAIN/dp/mult_result \
+sim:/main_tb/MAIN/dp/adder_out \
+sim:/main_tb/MAIN/dp/rom_out \
+sim:/main_tb/MAIN/dp/g \
+sim:/main_tb/MAIN/dp/e \
+sim:/main_tb/MAIN/dp/l \
+sim:/main_tb/MAIN/dp/one
+add wave -position insertpoint  \
+sim:/main_tb/MAIN/cu/PRE1 \
+sim:/main_tb/MAIN/cu/PRE2 \
+sim:/main_tb/MAIN/cu/INIT \
+sim:/main_tb/MAIN/cu/CALC1 \
+sim:/main_tb/MAIN/cu/CALC2 \
+sim:/main_tb/MAIN/cu/FIN \
+sim:/main_tb/MAIN/cu/reset \
+sim:/main_tb/MAIN/cu/clk \
+sim:/main_tb/MAIN/cu/start \
+sim:/main_tb/MAIN/cu/is_R4_greater_than_eight \
+sim:/main_tb/MAIN/cu/set_done \
+sim:/main_tb/MAIN/cu/clear_done \
+sim:/main_tb/MAIN/cu/ld_R1 \
+sim:/main_tb/MAIN/cu/clr_R1 \
+sim:/main_tb/MAIN/cu/ld_R2 \
+sim:/main_tb/MAIN/cu/clr_R2 \
+sim:/main_tb/MAIN/cu/ld_R4 \
+sim:/main_tb/MAIN/cu/clr_R4 \
+sim:/main_tb/MAIN/cu/inc_R4 \
+sim:/main_tb/MAIN/cu/ld_R5 \
+sim:/main_tb/MAIN/cu/clr_R5 \
+sim:/main_tb/MAIN/cu/ld_R6 \
+sim:/main_tb/MAIN/cu/clr_R6 \
+sim:/main_tb/MAIN/cu/ld_R7 \
+sim:/main_tb/MAIN/cu/clr_R7 \
+sim:/main_tb/MAIN/cu/S0 \
+sim:/main_tb/MAIN/cu/S1 \
+sim:/main_tb/MAIN/cu/S5 \
+sim:/main_tb/MAIN/cu/next_state \
+sim:/main_tb/MAIN/cu/state
+restart -f
+# Closing VCD file "MAIN_TB.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R1 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 22
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(22): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R2'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R2 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 23
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(23): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R4'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R4 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 24
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(24): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R5'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R5 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 25
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(25): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R6'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R6 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 26
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(26): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R7'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R7 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 27
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(27): [TFMPC] - Missing connection for port 'inc'.
+run
+# x = 0 and v = 10
+# result is : 0101000000000000
+# error is : 0000000000000000
+# test 1 ended------------------------------
+# x = pi/6 and v = 10
+# result is : 0100010100111000
+# error is : 0000000000010000
+# test 2 ended------------------------------
+# x = pi/4 and v = 10
+# result is : 0011100010000110
+# error is : 0000000000001011
+# test 3 ended------------------------------
+# x = pi/3 and v = 10
+# result is : 0010011111101100
+# error is : 0000000000010100
+# test 4 ended------------------------------
+# x = pi/2 and v = 10
+# result is : 1111111110111010
+# error is : 0000000001000110
+# test 5 ended------------------------------
+# x = 2pi/3 and v = 10
+# result is : 1101011101001100
+# error is : 0000000010110100
+# test 6 ended------------------------------
+# x = 3pi/4 and v = 10
+# result is : 1100011010110010
+# error is : 0000000010111101
+# test 7 ended------------------------------
+# x = 5pi/6 and v = 10
+# result is : 1011100110111010
+# error is : 0000000011111110
+# test 8 ended------------------------------
+# x = pi and v = 3
+# result is : 1110011101100111
+# error is : 0000000010011001
+# test 9 ended------------------------------
+quit -sim
+# End time: 19:57:22 on Jun 28,2023, Elapsed time: 0:15:37
+# Errors: 0, Warnings: 13
+# Compile of main.v was successful.
+# Compile of datapath.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of register.v was successful.
+# Compile of adder.v was successful.
+# Compile of mult.v was successful.
+# Compile of ROM.v was successful.
+# Compile of flipflop.v was successful.
+# Compile of MUX2_1.v was successful.
+# Compile of MUX4_2.v was successful.
+# Compile of CMP.v was successful.
+# Compile of main_tb.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of register_tb.v was successful.
+# Compile of mu2_1_tb.v was successful.
+# Compile of mux4_2_tb.v was successful.
+# Compile of CMP_tb.v was successful.
+# Compile of flipflop_tb.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of mult_tb.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.main_tb
+# vsim work.main_tb 
+# Start time: 20:12:28 on Jun 28,2023
+# Loading work.main_tb
+# Loading work.main
+# Loading work.datapath
+# Loading work.register
+# Loading work.ROM
+# Loading work.CMP
+# Loading work.flipflop
+# Loading work.adder
+# Loading work.mult
+# Loading work.MUX2_1
+# Loading work.MUX4_2
+# Loading work.control_unit
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R1 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 22
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(22): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R2'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R2 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 23
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(23): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R4'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R4 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 24
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(24): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R5'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R5 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 25
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(25): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R6'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R6 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 26
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(26): [TFMPC] - Missing connection for port 'inc'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'R7'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /main_tb/MAIN/dp/R7 File: /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v Line: 27
+# ** Warning: (vsim-3722) /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v(27): [TFMPC] - Missing connection for port 'inc'.
+add wave -position insertpoint  \
+sim:/main_tb/clk \
+sim:/main_tb/start \
+sim:/main_tb/reset \
+sim:/main_tb/v \
+sim:/main_tb/x \
+sim:/main_tb/done \
+sim:/main_tb/res \
+sim:/main_tb/expected \
+sim:/main_tb/err
+run
+# x = 0 and v = 10
+# result is : 0101000000000000
+# error is : 0000000000000000
+# test 1 ended------------------------------
+# x = pi/6 and v = 10
+# result is : 0100010100111000
+# error is : 0000000000010000
+# test 2 ended------------------------------
+# x = pi/4 and v = 10
+# result is : 0011100010000110
+# error is : 0000000000001011
+# test 3 ended------------------------------
+# x = pi/3 and v = 10
+# result is : 0010011111101100
+# error is : 0000000000010100
+# test 4 ended------------------------------
+# x = pi/2 and v = 10
+# result is : 1111111110111010
+# error is : 0000000001000110
+# test 5 ended------------------------------
+# x = 2pi/3 and v = 10
+# result is : 1101011101001100
+# error is : 0000000010110100
+# test 6 ended------------------------------
+# x = 3pi/4 and v = 10
+# result is : 1100011010110010
+# error is : 0000000010111101
+# test 7 ended------------------------------
+# x = 5pi/6 and v = 10
+# result is : 1011100110111010
+# error is : 0000000011111110
+# test 8 ended------------------------------
+# x = pi and v = 3
+# result is : 1110011101100111
+# error is : 0000000010011001
+# test 9 ended------------------------------
+quit -sim
+# End time: 20:17:20 on Jun 28,2023, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 14

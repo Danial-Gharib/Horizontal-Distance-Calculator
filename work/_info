@@ -1,0 +1,476 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/danial/apps/modelsim/modelsim_ase/bin
+vadder
+Z0 !s110 1687970541
+!i10b 1
+!s100 9eo5kB:IlP=fiZ3g=47i^2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IT<U^GGT]Gmlg^6f7@0blT2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog
+w1687911637
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/adder.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/adder.v
+!i122 1068
+L0 1 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1687970541.000000
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vadder_tb
+Z8 !s110 1687970542
+!i10b 1
+!s100 oeP]A<^3H5F3=efgW8UVP2
+R1
+IjNW1H]l6]=FWnR;5?LL7j2
+R2
+R3
+w1687896071
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/adder_tb.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/adder_tb.v
+!i122 1082
+L0 1 21
+R4
+r1
+!s85 0
+31
+Z9 !s108 1687970542.000000
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/adder_tb.v|
+!i113 1
+R6
+R7
+vCMP
+R8
+!i10b 1
+!s100 d4^ej^VnoS=Za6LE8ZKoi1
+R1
+IkWJ2L_aSJO]a89NY^`KU@0
+R2
+R3
+w1687879662
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/CMP.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/CMP.v
+!i122 1074
+L0 1 10
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/CMP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/CMP.v|
+!i113 1
+R6
+R7
+n@c@m@p
+vCMP_tb
+R8
+!i10b 1
+!s100 YE5OWQ2K9i=SV]DN:NKjC1
+R1
+IbFB6JN^MU=ZJO`heNl?[N1
+R2
+R3
+w1687894103
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/CMP_tb.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/CMP_tb.v
+!i122 1080
+Z10 L0 1 18
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/CMP_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/CMP_tb.v|
+!i113 1
+R6
+R7
+n@c@m@p_tb
+vcontrol_unit
+R0
+!i10b 1
+!s100 MN^dSKDE2K782JCFm;oI[3
+R1
+Il9;EHhRhL2dM2NcC5>M]c0
+R2
+R3
+w1687968468
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/control_unit.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/control_unit.v
+!i122 1066
+L0 7 74
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/control_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/control_unit.v|
+!i113 1
+R6
+R7
+vdatapath
+R0
+!i10b 1
+!s100 Xo4ASdWGPKDebe[4dNWbc1
+R1
+IFHomNe?@ISe^=HSkXSiIR2
+R2
+R3
+w1687912319
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v
+!i122 1065
+L0 1 52
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/datapath.v|
+!i113 1
+R6
+R7
+vflipflop
+R8
+!i10b 1
+!s100 UfI9NR`YIY1ooEFJeO4A`2
+R1
+I6h1lOIIC20QS_4b`X=P<_2
+R2
+R3
+w1687894571
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/flipflop.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/flipflop.v
+!i122 1071
+L0 1 14
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/flipflop.v|
+!i113 1
+R6
+R7
+vflipflop_tb
+R8
+!i10b 1
+!s100 RV]g1K:lo5HgZYjdb7W0`0
+R1
+IQC>]Q9GV1VEfUbDHL5e`J1
+R2
+R3
+w1687894724
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/flipflop_tb.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/flipflop_tb.v
+!i122 1081
+L0 1 26
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/flipflop_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/flipflop_tb.v|
+!i113 1
+R6
+R7
+vmain
+R0
+!i10b 1
+!s100 czi5Fg29Bf7Zf:l<X13U>2
+R1
+I73hXTO_@:A^WOL14a4Iii2
+R2
+R3
+w1687899405
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/main.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/main.v
+!i122 1064
+Z11 L0 1 34
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/main.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/main.v|
+!i113 1
+R6
+R7
+vmain_tb
+R8
+!i10b 1
+!s100 cmak@K5P0kPDclkS]>f<W2
+R1
+Il3;5KKL`N3^^HH9ngjgKa1
+R2
+R3
+w1687968639
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/main_tb.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/main_tb.v
+!i122 1075
+L0 1 179
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/main_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/main_tb.v|
+!i113 1
+R6
+R7
+vmult
+R0
+!i10b 1
+!s100 cKYiLmZN>dYSNTYeB0cV53
+R1
+I]7l>kCD@jIMhLD]TC5jHl0
+R2
+R3
+w1687908903
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mult.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mult.v
+!i122 1069
+L0 1 23
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mult.v|
+!i113 1
+R6
+R7
+vmult_tb
+R8
+!i10b 1
+!s100 T2<AYU_5hc5FZ>9H>Padd0
+R1
+IVb@FGSVJW?n_2ejoYIJ8J0
+R2
+R3
+w1687908213
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mult_tb.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mult_tb.v
+!i122 1083
+L0 1 15
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mult_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mult_tb.v|
+!i113 1
+R6
+R7
+vMUX2_1
+R8
+!i10b 1
+!s100 ]dIhhH[n@SkVozb>h_]^[2
+R1
+IcQ_^F`6IYJU77JJ0A6I8T1
+R2
+R3
+w1687876638
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/MUX2_1.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/MUX2_1.v
+!i122 1072
+L0 1 8
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/MUX2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/MUX2_1.v|
+!i113 1
+R6
+R7
+n@m@u@x2_1
+vmux2_1_tb
+R8
+!i10b 1
+!s100 0XB`jaTc]_^3B6@4FSzed0
+R1
+IKB]9`[k0L3ec>L:9`;a`W1
+R2
+R3
+w1687891429
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mu2_1_tb.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mu2_1_tb.v
+!i122 1078
+L0 1 25
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mu2_1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mu2_1_tb.v|
+!i113 1
+R6
+R7
+vMUX4_2
+R8
+!i10b 1
+!s100 51LmIZIBNzjDEPAEm]=iW1
+R1
+IojH?eGaa@M=`02kfd0HN=2
+R2
+R3
+w1687876802
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/MUX4_2.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/MUX4_2.v
+!i122 1073
+L0 1 24
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/MUX4_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/MUX4_2.v|
+!i113 1
+R6
+R7
+n@m@u@x4_2
+vmux4_2_tb
+R8
+!i10b 1
+!s100 12zKYiB3]KP]>bS7iTR]V3
+R1
+Ie3G?gdKFjmQXUA6`O71Q`2
+R2
+R3
+w1687893657
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mux4_2_tb.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mux4_2_tb.v
+!i122 1079
+L0 1 31
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mux4_2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/mux4_2_tb.v|
+!i113 1
+R6
+R7
+vregister
+R0
+!i10b 1
+!s100 [C>>96MVTHW_A_QD;Te]g0
+R1
+I`b@_QP`1^O59U2hDjnNF>1
+R2
+R3
+w1687902010
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/register.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/register.v
+!i122 1067
+L0 1 20
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/register.v|
+!i113 1
+R6
+R7
+vregister_tb
+R8
+!i10b 1
+!s100 F8oGo=^1MLlM@k^F1aLWO0
+R1
+IPR3h?oGgDi66C17R5d]A;1
+R2
+R3
+w1687886203
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/register_tb.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/register_tb.v
+!i122 1077
+R11
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/register_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/register_tb.v|
+!i113 1
+R6
+R7
+vROM
+R8
+!i10b 1
+!s100 [f:jmYi1R42=f;Q?gD^mF3
+R1
+IZnEP2X`=F8V][0kj`G=fL0
+R2
+R3
+w1687884327
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/ROM.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/ROM.v
+!i122 1070
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/ROM.v|
+!i113 1
+R6
+R7
+n@r@o@m
+vrom_tb
+R8
+!i10b 1
+!s100 B9Q4CD<l>R]2>n>KUbiXl0
+R1
+I_Z@[Ha4@HfY5MlYJc8Y>F2
+R2
+R3
+w1687884270
+8/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/rom_tb.v
+F/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/rom_tb.v
+!i122 1076
+R10
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/rom_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/danial/SUT/Term4/DigitalSystemDesign/final_project/verilog/rom_tb.v|
+!i113 1
+R6
+R7
